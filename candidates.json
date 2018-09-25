@@ -1,0 +1,670 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "pages": 1967,
+    "count": 39332,
+    "per_page": 20,
+    "page": 1
+  },
+  "results": [
+    {
+      "party_full": "INDEPENDENT",
+      "state": "US",
+      "cycles": [
+        2002,
+        2004
+      ],
+      "first_file_date": "2002-01-30",
+      "has_raised_funds": false,
+      "office_full": "President",
+      "flags": "P40002172",
+      "party": "IND",
+      "candidate_status": "N",
+      "load_date": "2002-04-12T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        2004
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 2004,
+      "candidate_id": "P40002172",
+      "district": "00",
+      "district_number": 0,
+      "last_f2_date": "2002-01-30",
+      "name": "AABBATTE, MICHAEL THOMAS WITORT",
+      "election_districts": [
+        "00"
+      ],
+      "office": "P",
+      "last_file_date": "2002-01-30"
+    },
+    {
+      "party_full": "INDEPENDENT AMERICAN PARTY",
+      "state": "UT",
+      "cycles": [
+        2014
+      ],
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "office_full": "House",
+      "flags": "H4UT04052",
+      "party": "IAP",
+      "candidate_status": "N",
+      "load_date": "2014-03-22T21:40:34",
+      "federal_funds_flag": false,
+      "election_years": [
+        2014
+      ],
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "active_through": 2014,
+      "candidate_id": "H4UT04052",
+      "district": "04",
+      "district_number": 4,
+      "last_f2_date": null,
+      "name": "AALDERS, TIM",
+      "election_districts": [
+        "04"
+      ],
+      "office": "H",
+      "last_file_date": null
+    },
+    {
+      "party_full": "CONSTITUTION PARTY",
+      "state": "UT",
+      "cycles": [
+        2012,
+        2014,
+        2016,
+        2018
+      ],
+      "first_file_date": "2012-02-08",
+      "has_raised_funds": true,
+      "office_full": "Senate",
+      "flags": "S2UT00229",
+      "party": "CON",
+      "candidate_status": "C",
+      "load_date": "2018-08-01T00:13:22",
+      "federal_funds_flag": false,
+      "election_years": [
+        2012,
+        2018
+      ],
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "active_through": 2018,
+      "candidate_id": "S2UT00229",
+      "district": "00",
+      "district_number": 0,
+      "last_f2_date": "2018-04-23",
+      "name": "AALDERS, TIMOTHY NOEL",
+      "election_districts": [
+        "00",
+        "00"
+      ],
+      "office": "S",
+      "last_file_date": "2018-04-23"
+    },
+    {
+      "party_full": "REPUBLICAN PARTY",
+      "state": "PA",
+      "cycles": [
+        1976,
+        1978,
+        1980
+      ],
+      "first_file_date": "1976-04-12",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H6PA16106",
+      "party": "REP",
+      "candidate_status": "P",
+      "load_date": "2002-03-30T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        1976,
+        1978
+      ],
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "active_through": 1978,
+      "candidate_id": "H6PA16106",
+      "district": "16",
+      "district_number": 16,
+      "last_f2_date": "1978-07-05",
+      "name": "AAMODT, NORMAN O.",
+      "election_districts": [
+        "16",
+        "16"
+      ],
+      "office": "H",
+      "last_file_date": "1978-07-05"
+    },
+    {
+      "party_full": "REPUBLICAN PARTY",
+      "state": "CA",
+      "cycles": [
+        2012,
+        2014,
+        2016
+      ],
+      "first_file_date": "2012-02-22",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H2CA01110",
+      "party": "REP",
+      "candidate_status": "P",
+      "load_date": "2013-04-26T09:04:30",
+      "federal_funds_flag": false,
+      "election_years": [
+        2012
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 2012,
+      "candidate_id": "H2CA01110",
+      "district": "01",
+      "district_number": 1,
+      "last_f2_date": "2012-02-22",
+      "name": "AANESTAD, SAMUEL",
+      "election_districts": [
+        "01"
+      ],
+      "office": "H",
+      "last_file_date": "2012-02-22"
+    },
+    {
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "CO",
+      "cycles": [
+        2018
+      ],
+      "first_file_date": "2017-04-26",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H8CO06237",
+      "party": "DEM",
+      "candidate_status": "C",
+      "load_date": "2017-08-01T20:57:28",
+      "federal_funds_flag": false,
+      "election_years": [
+        2018
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 2018,
+      "candidate_id": "H8CO06237",
+      "district": "06",
+      "district_number": 6,
+      "last_f2_date": "2017-04-26",
+      "name": "AARESTAD, DAVID",
+      "election_districts": [
+        "06"
+      ],
+      "office": "H",
+      "last_file_date": "2017-04-26"
+    },
+    {
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "CA",
+      "cycles": [
+        1998
+      ],
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "office_full": "House",
+      "flags": "H8CA18053",
+      "party": "LIB",
+      "candidate_status": "N",
+      "load_date": "2002-04-03T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        1998
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 1998,
+      "candidate_id": "H8CA18053",
+      "district": "18",
+      "district_number": 18,
+      "last_f2_date": null,
+      "name": "AAROE, KEN",
+      "election_districts": [
+        "18"
+      ],
+      "office": "H",
+      "last_file_date": null
+    },
+    {
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "US",
+      "cycles": [
+        2006,
+        2008,
+        2010,
+        2012,
+        2014,
+        2016
+      ],
+      "first_file_date": "2005-10-12",
+      "has_raised_funds": true,
+      "office_full": "President",
+      "flags": "P80002926",
+      "party": "DEM",
+      "candidate_status": "N",
+      "load_date": "2016-11-17T06:10:48",
+      "federal_funds_flag": false,
+      "election_years": [
+        2008
+      ],
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "active_through": 2008,
+      "candidate_id": "P80002926",
+      "district": "00",
+      "district_number": 0,
+      "last_f2_date": "2007-03-13",
+      "name": "AARON, LAURA DAVIS",
+      "election_districts": [
+        "00"
+      ],
+      "office": "P",
+      "last_file_date": "2007-03-13"
+    },
+    {
+      "party_full": "PEACE AND FREEDOM",
+      "state": "US",
+      "cycles": [
+        2016
+      ],
+      "first_file_date": "2015-09-30",
+      "has_raised_funds": false,
+      "office_full": "President",
+      "flags": "P60016326",
+      "party": "PAF",
+      "candidate_status": "N",
+      "load_date": "2016-11-17T06:10:49",
+      "federal_funds_flag": false,
+      "election_years": [
+        2016
+      ],
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "active_through": 2016,
+      "candidate_id": "P60016326",
+      "district": "00",
+      "district_number": 0,
+      "last_f2_date": "2015-09-30",
+      "name": "ABABIY, JON",
+      "election_districts": [
+        "00"
+      ],
+      "office": "P",
+      "last_file_date": "2015-09-30"
+    },
+    {
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MA",
+      "cycles": [
+        2000,
+        2002,
+        2004
+      ],
+      "first_file_date": "2000-02-02",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H0MA01024",
+      "party": "REP",
+      "candidate_status": "P",
+      "load_date": "2002-04-12T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        2000
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 2000,
+      "candidate_id": "H0MA01024",
+      "district": "01",
+      "district_number": 1,
+      "last_f2_date": "2000-02-02",
+      "name": "ABAIR, PETER JON",
+      "election_districts": [
+        "01"
+      ],
+      "office": "H",
+      "last_file_date": "2000-02-02"
+    },
+    {
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MT",
+      "cycles": [
+        2012,
+        2014,
+        2016,
+        2018
+      ],
+      "first_file_date": "2011-05-25",
+      "has_raised_funds": false,
+      "office_full": "House",
+      "flags": "H2MT00039",
+      "party": "DEM",
+      "candidate_status": "N",
+      "load_date": "2011-10-04T23:20:42",
+      "federal_funds_flag": false,
+      "election_years": [
+        2012
+      ],
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "active_through": 2012,
+      "candidate_id": "H2MT00039",
+      "district": "00",
+      "district_number": 0,
+      "last_f2_date": "2011-10-03",
+      "name": "ABARR, JOHN ALLEN",
+      "election_districts": [
+        "00"
+      ],
+      "office": "H",
+      "last_file_date": "2011-10-03"
+    },
+    {
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NJ",
+      "cycles": [
+        2006,
+        2008
+      ],
+      "first_file_date": "2006-03-28",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H6NJ05155",
+      "party": "DEM",
+      "candidate_status": "C",
+      "load_date": "2009-04-29T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        2006,
+        2008
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 2008,
+      "candidate_id": "H6NJ05155",
+      "district": "05",
+      "district_number": 5,
+      "last_f2_date": "2007-06-05",
+      "name": "ABATE, CAMILLE M",
+      "election_districts": [
+        "05",
+        "05"
+      ],
+      "office": "H",
+      "last_file_date": "2007-06-05"
+    },
+    {
+      "party_full": "REPUBLICAN PARTY",
+      "state": "AZ",
+      "cycles": [
+        2016,
+        2018
+      ],
+      "first_file_date": "2017-04-10",
+      "has_raised_funds": false,
+      "office_full": "House",
+      "flags": "H6AZ03245",
+      "party": "REP",
+      "candidate_status": "N",
+      "load_date": "2017-04-19T21:05:08",
+      "federal_funds_flag": false,
+      "election_years": [
+        2016,
+        2018
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 2018,
+      "candidate_id": "H6AZ03245",
+      "district": "03",
+      "district_number": 3,
+      "last_f2_date": "2017-04-10",
+      "name": "ABATECOLA, BILL",
+      "election_districts": [
+        "03",
+        "03"
+      ],
+      "office": "H",
+      "last_file_date": "2017-04-10"
+    },
+    {
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NJ",
+      "cycles": [
+        1992,
+        1994,
+        1996,
+        1998
+      ],
+      "first_file_date": "1992-04-15",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H2NJ12036",
+      "party": "DEM",
+      "candidate_status": "P",
+      "load_date": "2002-04-03T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        1992
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 1992,
+      "candidate_id": "H2NJ12036",
+      "district": "12",
+      "district_number": 12,
+      "last_f2_date": "1992-04-15",
+      "name": "ABATE, FRANK G",
+      "election_districts": [
+        "12"
+      ],
+      "office": "H",
+      "last_file_date": "1992-04-15"
+    },
+    {
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA",
+      "cycles": [
+        1990
+      ],
+      "first_file_date": "1990-05-01",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H0IA03071",
+      "party": "REP",
+      "candidate_status": "C",
+      "load_date": "2002-03-30T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        1990
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 1990,
+      "candidate_id": "H0IA03071",
+      "district": "03",
+      "district_number": 3,
+      "last_f2_date": "1990-05-01",
+      "name": "ABBAS, JEFFREY LYN",
+      "election_districts": [
+        "03"
+      ],
+      "office": "H",
+      "last_file_date": "1990-05-01"
+    },
+    {
+      "party_full": "OTHER",
+      "state": "CT",
+      "cycles": [
+        1998
+      ],
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "office_full": "House",
+      "flags": "H8CT03042",
+      "party": "OTH",
+      "candidate_status": "N",
+      "load_date": "2002-04-03T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        1998
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 1998,
+      "candidate_id": "H8CT03042",
+      "district": "03",
+      "district_number": 3,
+      "last_f2_date": null,
+      "name": "ABBATIELLO, KRISTEN J",
+      "election_districts": [
+        "03"
+      ],
+      "office": "H",
+      "last_file_date": null
+    },
+    {
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX",
+      "cycles": [
+        1994
+      ],
+      "first_file_date": "1994-01-14",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H4TX15043",
+      "party": "REP",
+      "candidate_status": "C",
+      "load_date": "2002-03-30T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        1994
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 1994,
+      "candidate_id": "H4TX15043",
+      "district": "15",
+      "district_number": 15,
+      "last_f2_date": "1994-01-14",
+      "name": "ABBOTT, BONNIE",
+      "election_districts": [
+        "15"
+      ],
+      "office": "H",
+      "last_file_date": "1994-01-14"
+    },
+    {
+      "party_full": "INDEPENDENT",
+      "state": "US",
+      "cycles": [
+        2016
+      ],
+      "first_file_date": "2015-02-26",
+      "has_raised_funds": false,
+      "office_full": "President",
+      "flags": "P60005840",
+      "party": "IND",
+      "candidate_status": "N",
+      "load_date": "2016-11-17T06:10:49",
+      "federal_funds_flag": false,
+      "election_years": [
+        2016
+      ],
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "active_through": 2016,
+      "candidate_id": "P60005840",
+      "district": "00",
+      "district_number": 0,
+      "last_f2_date": "2015-02-26",
+      "name": "ABBOTT, GIFFORD WHEELER JR",
+      "election_districts": [
+        "00"
+      ],
+      "office": "P",
+      "last_file_date": "2015-02-26"
+    },
+    {
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "SD",
+      "cycles": [
+        1996,
+        1998
+      ],
+      "first_file_date": "1995-10-02",
+      "has_raised_funds": true,
+      "office_full": "House",
+      "flags": "H6SD00077",
+      "party": "DEM",
+      "candidate_status": "P",
+      "load_date": "2002-04-03T00:00:00",
+      "federal_funds_flag": false,
+      "election_years": [
+        1996
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 1996,
+      "candidate_id": "H6SD00077",
+      "district": "01",
+      "district_number": 1,
+      "last_f2_date": "1995-10-02",
+      "name": "ABBOTT, JAMES W",
+      "election_districts": [
+        "01"
+      ],
+      "office": "H",
+      "last_file_date": "1995-10-02"
+    },
+    {
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "US",
+      "cycles": [
+        1988,
+        1990,
+        1992,
+        1994,
+        1996,
+        1998
+      ],
+      "first_file_date": "1988-08-29",
+      "has_raised_funds": true,
+      "office_full": "President",
+      "flags": "P80002579",
+      "party": "DEM",
+      "candidate_status": "P",
+      "load_date": "2002-04-03T00:00:00",
+      "federal_funds_flag": true,
+      "election_years": [
+        1988,
+        1992
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "active_through": 1992,
+      "candidate_id": "P80002579",
+      "district": "00",
+      "district_number": 0,
+      "last_f2_date": "1992-06-16",
+      "name": "ABBOTT, JOHN HANCOCK",
+      "election_districts": [
+        "00",
+        "00"
+      ],
+      "office": "P",
+      "last_file_date": "1992-06-16"
+    }
+  ]
+}
