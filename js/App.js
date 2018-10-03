@@ -13,6 +13,13 @@ const sixteenTwo =
 
 const candidates2012 = [];
 const candidates2016 = [];
+
+const list2012 = document.querySelector('.list-2012');
+const list2016 = document.querySelector('.list-2016');
+const btn2012 = document.querySelector('.btn--2012');
+const btn2016 = document.querySelector('.btn--2016');
+
+
 // fetch(twelveOne)
 //   .then(blob => blob.json())
 //   .then(data => candidates2012.push(...data));
@@ -24,26 +31,55 @@ function getCandidates(api, array) {
     .then(data => array.push(...data.results));
 }
 
-// Sort and displays the Candidate Info
+// Sorts the Candidate Info by name
+function sortCandidates(a, b) {
+  // array.sort((a, b) => a.name - b.name);
+  if (a.name < b.name) {
+    return -1;
+  }
+  if (a.name > b.name) {
+    return 1;
+  }
+  return 0;
+}
+
+// Displays the Candidate Info
 function showCandidates(array) {
-  array.sort((a, b) => a.name - b.name);
+  // sortCandidates(array);
+  array.sort(sortCandidates);
   array.forEach((elem) => {
-    console.log(`Candidate ID: ${elem.candidate_id} Name: ${elem.name} Party: ${elem.party_full}`);
+    const li = document.createElement('li');
+    li.className = 'list__item';
+    li.innerHTML = `Candidate ID: ${elem.candidate_id} Name: ${elem.name} Party: ${elem.party_full}`;
+    if (array === candidates2012) {
+      list2012.appendChild(li);
+    } else if (array === candidates2016) {
+      list2016.appendChild(li);
+    }
   });
 }
+
 
 getCandidates(twelveOne, candidates2012);
 getCandidates(twelveTwo, candidates2012);
 getCandidates(sixteenOne, candidates2016);
 getCandidates(sixteenTwo, candidates2016);
+
+
+btn2012.addEventListener('click', () => {
+  // sortCandidates(candidates2012);
+  showCandidates(candidates2012);
+  btn2012.disabled = true;
+});
+
+btn2016.addEventListener('click', () => {
+  // sortCandidates(candidates2016);
+  showCandidates(candidates2016);
+  btn2016.disabled = true;
+});
+
 // for use on event listener or onload event
 // showCandidates(candidates2012);
 // showCandidates(candidates2016);
 
-/* TODO: Loop over 2012 with a .foreach or .map and maybe using a filter each  using candidates2012["#"].results
-
-note we can display individual results
-candidates2012['0'].results['0'].name = 'ADESHINA, YINKA ABOSEDE'
-look at example code:
-https://codepen.io/jeffcruizer/pen/wPgQpV
-*/
+/* TODO: Use an if statement so that */
