@@ -18,6 +18,8 @@ const list2012 = document.querySelector('.list-2012');
 const list2016 = document.querySelector('.list-2016');
 const btn2012 = document.querySelector('.btn--2012');
 const btn2016 = document.querySelector('.btn--2016');
+const list1 = document.querySelector('.list--1');
+const list2 = document.querySelector('.list--2');
 
 
 // fetch(twelveOne)
@@ -70,12 +72,14 @@ btn2012.addEventListener('click', () => {
   // sortCandidates(candidates2012);
   showCandidates(candidates2012);
   btn2012.disabled = true;
+  list1.className = 'show';
 });
 
 btn2016.addEventListener('click', () => {
   // sortCandidates(candidates2016);
   showCandidates(candidates2016);
   btn2016.disabled = true;
+  list2.className = 'show';
 });
 
 // for use on event listener or onload event
