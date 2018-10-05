@@ -46,7 +46,7 @@ function showCandidates(array) {
   array.forEach((elem) => {
     const li = document.createElement('li');
     li.className = 'list__item';
-    li.innerHTML = `<i>Candidate ID:</i> ${elem.candidate_id} <i>Name:</i> ${elem.name} <i>Party:</i> ${elem.party_full}`;
+    li.innerHTML = `<i>Candidate ID:</i> ${elem.candidate_id} <i>Name:</i> ${elem.name} <i>Party:</i> ${elem.party}`;
     if (array === candidates2012) {
       list2012.appendChild(li);
     } else if (array === candidates2016) {
