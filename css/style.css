@@ -43,7 +43,7 @@ body {
   .list__item {
     list-style-type: none;
     padding: 0.5rem 1rem;
-    transition: all 0.7s;
+    transition: all 0.1s;
     font-size: 1.5rem; }
     .list__item:hover {
       transform: translateY(2px);
@@ -55,11 +55,11 @@ body {
   padding: 2rem;
   cursor: pointer;
   font-weight: 600;
-  background-color: #ddd;
+  background-color: #fff;
   border: 1px solid #000;
   border-radius: 10px; }
   .btn:hover {
-    background-color: #fff; }
+    background-color: #908282; }
   .btn:active {
     transform: translateY(1px); }
   .btn:disabled {
