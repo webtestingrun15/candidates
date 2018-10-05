@@ -42,7 +42,15 @@
     padding: 0.5rem 1rem;
     transition: all 0.1s;
     font-size: 1.5rem;
-    &:hover {
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 1.2rem;
+    }
+    @media only screen and (max-width: $bp-phablet) {
+      font-size: 1rem;
+    }
+    &:hover,
+    &:focus {
       transform: translateY(2px);
       font-weight: 600;
     }

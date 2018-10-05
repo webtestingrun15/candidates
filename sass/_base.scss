@@ -1,6 +1,15 @@
 // fonts
 $font-primary: 'Open Sans', sans-serif;
 
+// media queries
+$bp-largest: 106.2em;
+$bp-large: 87.5em;
+$bp-medium: 75.5em;
+$bp-tablet: 56.25em;
+$bp-phablet: 31.25em;
+$bp-phone: 25em;
+$bp-smallest: 18.75em;
+
 *,
 *::before,
 *::after {
@@ -12,18 +21,28 @@ $font-primary: 'Open Sans', sans-serif;
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%; // 1 rem = 8px, 8/16px
+  }
 }
 
 .wrapper {
   width: 50vw;
   margin: 5rem auto;
+
   background-color: #ddd;
   padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  @media only screen and (max-width: $bp-tablet) {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
   & > * {
     padding: 2rem;
     display: flex;
