@@ -22,10 +22,6 @@ const list1 = document.querySelector('.list--1');
 const list2 = document.querySelector('.list--2');
 
 
-// fetch(twelveOne)
-//   .then(blob => blob.json())
-//   .then(data => candidates2012.push(...data));
-
 // fetch and push data from api
 function getCandidates(api, array) {
   fetch(api)
@@ -35,7 +31,6 @@ function getCandidates(api, array) {
 
 // Sorts the Candidate Info by name
 function sortCandidates(a, b) {
-  // array.sort((a, b) => a.name - b.name);
   if (a.name < b.name) {
     return -1;
   }
@@ -47,12 +42,11 @@ function sortCandidates(a, b) {
 
 // Displays the Candidate Info
 function showCandidates(array) {
-  // sortCandidates(array);
   array.sort(sortCandidates);
   array.forEach((elem) => {
     const li = document.createElement('li');
     li.className = 'list__item';
-    li.innerHTML = `Candidate ID: ${elem.candidate_id} Name: ${elem.name} Party: ${elem.party_full}`;
+    li.innerHTML = `<i>Candidate ID:</i> ${elem.candidate_id} <i>Name:</i> ${elem.name} <i>Party:</i> ${elem.party_full}`;
     if (array === candidates2012) {
       list2012.appendChild(li);
     } else if (array === candidates2016) {
@@ -61,6 +55,16 @@ function showCandidates(array) {
   });
 }
 
+// Hides Button and shows selected list
+function listButtonControl(list) {
+  if (list === list1) {
+    btn2012.disabled = true;
+    list1.className = 'show';
+  } else {
+    btn2016.disabled = true;
+    list2.className = 'show';
+  }
+}
 
 getCandidates(twelveOne, candidates2012);
 getCandidates(twelveTwo, candidates2012);
@@ -69,21 +73,12 @@ getCandidates(sixteenTwo, candidates2016);
 
 
 btn2012.addEventListener('click', () => {
-  // sortCandidates(candidates2012);
   showCandidates(candidates2012);
-  btn2012.disabled = true;
-  list1.className = 'show';
+  listButtonControl(list1);
 });
 
 btn2016.addEventListener('click', () => {
-  // sortCandidates(candidates2016);
   showCandidates(candidates2016);
-  btn2016.disabled = true;
-  list2.className = 'show';
+  listButtonControl(list2);
 });
 
-// for use on event listener or onload event
-// showCandidates(candidates2012);
-// showCandidates(candidates2016);
-
-/* TODO: Use an if statement so that */
